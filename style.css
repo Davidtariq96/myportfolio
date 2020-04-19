@@ -3,14 +3,29 @@
 #page-nav {
     width: 100%;
     background:rgb(155, 48, 48);
+    position: sticky;
+    top: 0;
     /* If you want the navigation bar to stick on top
     position: sticky;
     top: 0;
     */
   }
+  
+     
+  .blue-container a{
+      border-bottom: 2px solid #fff;
+      padding-bottom: 2px;
+      font-size: 3em;
+      margin-left: 6em;
+      color: #fff;
+        
+     }
+
   .blue-container{
-    list-style-type: none;
-    text-align: center;
+    background: rgb(92, 92, 214);
+    padding: 5em 0em 9em 0em;
+    margin-bottom: -5em;
+    
   }
   
   /* Hide Hamburger */
@@ -40,6 +55,7 @@
     background-color: rgb(27, 27, 27);
     text-align: center;
     margin-top: -2.6em;
+  
   }
   h4{
     color: rgb(155, 48, 48);
@@ -60,6 +76,21 @@
     border-radius: 50%;
     margin-bottom: 16em;
     padding-top: -7em;
+    margin-right: -63em;
+    margin-top: -39em;
+  }
+  .grey-container{
+    background: rgb(56, 53, 53);
+    text-align: center;
+  }
+  .grey-container h1{
+    color: white;
+    margin-top: -1em;
+
+  }
+  .grey-container h4 i{
+    color: white;
+    font-size: 0.5em;
   }
   /* [ON SMALL SCREENS] */
   @media screen and (max-width: 768px){
