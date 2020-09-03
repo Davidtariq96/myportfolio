@@ -52,6 +52,7 @@ h1{
 } */
 .contact-me ul{
   list-style-type: none;
+  color: rgb(197, 197, 197);
 }
 i{
   /* color: #1d1d1d; */
@@ -92,6 +93,16 @@ i{
 /* myskills section */
 #skills-wrapper{
   padding-top: 7rem;
+  margin-top: 4rem;
+}
+#skills-wrapper h2::after{
+    content: '';
+    width: 20%;
+    display: block;
+    margin-left: 1rem;
+    height: 5px;
+    background:yellow;
+  
 }
 .row{
  max-width:400px;
@@ -139,14 +150,10 @@ i{
   width: 100%;
   margin-left: 1rem;
 }
-#app-galla h4,#quiz-app h4{
-  margin-left: 3rem;
-}
-#app-galla h3,#quiz-app h3{
-  margin-left: 3rem;
-}
+
 #my-works{
   padding-top: 5rem;
+  margin-top: 5rem;
 }
 #my-works h2::after{
   content: '';
@@ -177,13 +184,13 @@ i{
   transform: scale(1.1);
 
 }
-#todo-app,#app-galla,#quiz-app{
+#todo-app{
   padding: 0 0.6rem;
 }
-#todo-app,#app-galla,#quiz-app span{
+#todo-app span{
   font-size: 0.9rem;
 }
-#todo-app,#app-galla,#quiz-app{
+#todo-app{
   max-width: 800px;
   min-width: 100px;
   margin: auto;
@@ -205,9 +212,29 @@ i{
   width: 300px;
   margin-top: 1rem;
 }
+ #github-link {
+  display: flex;
+  margin: 2rem auto;
+  padding: 5px 15px;
+  color: white;
+  font-size: 23px;
+  text-decoration: none;
+  transition: transform 1.1s;
+}
+#github-link:hover{
+  text-decoration: none;
+  transform: scale(1.1);
+  background: rgb(18, 18, 94);
+}
+
+
 /* footer region */
+.contact-me h3{
+  padding-top: 5rem;
+}
 .contact-me h4{
   font-size: 1rem;
+  color: rgb(197, 197, 197);
 }
 #footer-links{
   max-width: 300px;
@@ -224,7 +251,7 @@ i{
 footer{
   margin-top: 3rem;
 }
-.conclusion h4{
+.conclusion h5{
   background: #1d1d1d;
   font-size: 0.9rem;
   padding: 0.5rem 1rem;
@@ -249,7 +276,25 @@ footer{
   #todo-app,#app-galla,#quiz-app{
     flex-direction: column;
   }
+  .todo-img img{
+    margin: auto;
+  }
+  #my-works h2::after{
+    content: '';
+    width: 50%;
+    margin: auto;
+    display: block;
+    height: 5px;
+    background:yellow;
+  }
+  #skills-wrapper h2::after{
+    content: '';
+    width: 70%;
+    display: block;
+    margin-left: 1rem;
+    height: 5px;
+    background:yellow;
   
- 
+}
 
 }
