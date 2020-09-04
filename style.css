@@ -16,14 +16,17 @@ h1{
   background: #1A599C;
   border: none;
 }
+
 .logo-img{
     max-width: 250px;
     min-width: 100px;
     margin-left: -39px;
     margin-top: 0.3rem;
+    
 }
 .logo-img img{
     width: 100%;
+    
 }
 .fa-bars{
   color: rgb(184, 179, 179);
@@ -83,7 +86,9 @@ i{
   margin-left: -2rem;
   line-height: 35px;
   color: rgb(197, 197, 197);
-}
+  }
+
+
 .about-me span{
   color: white;
   font-weight: bold
@@ -225,13 +230,15 @@ i{
   padding: 5px 15px;
   color: white;
   font-size: 23px;
+  background: #383737;
   text-decoration: none;
   transition: transform 1.1s;
 }
 #github-link:hover{
   text-decoration: none;
   transform: scale(1.1);
-  background: rgb(18, 18, 94);
+  color: gray;
+  background: #f4f4f4;
 }
 
 

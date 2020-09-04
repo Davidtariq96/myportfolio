@@ -33,6 +33,6 @@
 //    checkNumber(100);
 //    checkNumber(20);
 
-<script>
-  AOS.init();
-</script>
+AOS.init({
+  duration:1200,
+});
