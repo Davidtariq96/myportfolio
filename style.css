@@ -111,23 +111,30 @@ i{
 .row > div{
   max-width: 100px;
   min-width: 50px;
-  cursor: pointer;
+  pointer-events: none;
+  animation: App-logo-spin infinite 10s linear;
 }
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 
 .row > div img{
   width: 100%;
-}
-#git{
-  background:white;
-  padding: 3px;
-  width: 50px;
-  border-radius: 50%;
 }
 .skill-info{
   max-width: 500px;
   min-width: 100px;
   line-height: 30px;
   font-size: 1rem;
+}
+#git{
+  width: 100px;
 }
 /* my work section */
 .todo-img{
@@ -295,6 +302,9 @@ footer{
     height: 5px;
     background:yellow;
   
+}
+.row > div{
+  margin-top: 3rem;
 }
 
 }
