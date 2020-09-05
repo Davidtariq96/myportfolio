@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 body{
   background: #101011;
   color: white;
@@ -41,24 +44,16 @@ h1{
   max-width: 500px;
   min-width: 100px;
 }
-/* svg{
-  display: inline-block;
-  right: 10px;
-  bottom: 20px;
-  position: fixed;
-  width: 30px;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
-  background:gray;
-  padding: 5px;
-  border-radius: 50%;
-} */
+svg{
+margin-top: 0.52rem;
+margin-left: 0.3rem;
+font-size: 20px;
+}
 .contact-me ul{
   list-style-type: none;
   color: rgb(197, 197, 197);
 }
 i{
-  /* color: #1d1d1d; */
  padding-left: 10px;
 }
 .navbar .nav-item {
@@ -286,11 +281,11 @@ footer{
   margin-top: 3rem;
 }
 .conclusion h5{
-  background: #1d1d1d;
-  font-size: 0.9rem;
+  /* background: #1d1d1d; */
+  font-size: 14px;
   padding: 0.5rem 1rem;
   text-align: center;
-  color: rgb(197, 197, 197);
+  color: #999;
   margin-top: 2rem;
   margin-bottom: -1rem;
 }
@@ -315,7 +310,7 @@ footer{
   }
   #my-works h2::after{
     content: '';
-    width: 50%;
+    width: 80%;
     margin: auto;
     display: block;
     height: 5px;
