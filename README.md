@@ -1,2 +1,2 @@
 # myportfolio
-just my simple portfolio
+My humble portfolio
